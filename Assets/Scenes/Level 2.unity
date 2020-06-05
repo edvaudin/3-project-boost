@@ -14,9 +14,9 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
-  m_FogMode: 3
+  m_FogMode: 1
   m_FogDensity: 0.01
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0.1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.13836333, g: 0.15754572, b: 0.18660685, a: 0.1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -66,7 +66,7 @@ LightmapSettings:
     m_Padding: 2
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
-    m_TextureCompression: 1
+    m_TextureCompression: 0
     m_FinalGather: 0
     m_FinalGatherFiltering: 1
     m_FinalGatherRayCount: 256
@@ -97,7 +97,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: b4a3f0280e0c10d489dc049ef8e2ba8b,
+    type: 2}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -1300,7 +1301,7 @@ PrefabInstance:
     - target: {fileID: 8029109514484333443, guid: a8e189bb5e0fb8b459d98caa3d1a2d83,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 3.03
       objectReference: {fileID: 0}
     - target: {fileID: 8029109514484333443, guid: a8e189bb5e0fb8b459d98caa3d1a2d83,
         type: 3}
@@ -1594,7 +1595,7 @@ PrefabInstance:
     - target: {fileID: 8029109514484333443, guid: a8e189bb5e0fb8b459d98caa3d1a2d83,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4
+      value: 2.43
       objectReference: {fileID: 0}
     - target: {fileID: 8029109514484333443, guid: a8e189bb5e0fb8b459d98caa3d1a2d83,
         type: 3}
