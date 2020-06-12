@@ -17,7 +17,7 @@ public class Rocket : MonoBehaviour
 
     Rigidbody rigidBody;
     AudioSource audioSource;
-    AttemptsKeeper attempts;
+    //AttemptsKeeper attempts;
 
     bool collisionsDisabled = false;
 
@@ -28,7 +28,7 @@ public class Rocket : MonoBehaviour
     {
         rigidBody = GetComponent<Rigidbody>();
         audioSource = GetComponent<AudioSource>();
-        attempts = FindObjectOfType<AttemptsKeeper>();
+        //attempts = FindObjectOfType<AttemptsKeeper>();
     }
 
     // Update is called once per frame
@@ -81,7 +81,7 @@ public class Rocket : MonoBehaviour
     private void ReloadScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        attempts.AddAttempt();
+        //attempts.AddAttempt();
     }
 
     private void LoadNextScene()
